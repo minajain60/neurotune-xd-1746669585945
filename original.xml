@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebDynpro xmlns="http://www.sap.com/wd/webdynpro">
+  <View name="ProductCatalogView_497f">
+    <Title>Product Catalog 497f</Title>
+    <!-- Generated from image with hash: 497f7a18 -->
+    <Text text="Generated with unique hash: 497f" />
+    
+    <!-- Search Area -->
+    <FormContainer id="searchForm">
+      <FormElement>
+        <Label text="Search:" />
+        <Field>
+          <InputField id="searchField" />
+        </Field>
+        <Button id="searchButton" text="Search" />
+      </FormElement>
+    </FormContainer>
+    
+    <!-- Products Table -->
+    <Table id="productsTable">
+      <Columns>
+        <Column>
+          <Label text="Product ID" />
+        </Column>
+        <Column>
+          <Label text="Product Name" />
+        </Column>
+        <Column>
+          <Label text="Category" />
+        </Column>
+        <Column>
+          <Label text="Price" />
+        </Column>
+        <Column>
+          <Label text="Availability" />
+        </Column>
+        <Column>
+          <Label text="Actions" />
+        </Column>
+      </Columns>
+      <Rows>
+        <Row>
+          <Cell>
+            <TextView text="HT-1000" />
+          </Cell>
+          <Cell>
+            <TextView text="Notebook Basic 15" />
+          </Cell>
+          <Cell>
+            <TextView text="Notebooks" />
+          </Cell>
+          <Cell>
+            <TextView text="956.00 EUR" />
+          </Cell>
+          <Cell>
+            <TextView text="In Stock" />
+          </Cell>
+          <Cell>
+            <Button text="Add to Cart" />
+          </Cell>
+        </Row>
+        <Row>
+          <Cell>
+            <TextView text="HT-1001" />
+          </Cell>
+          <Cell>
+            <TextView text="Notebook Basic 17" />
+          </Cell>
+          <Cell>
+            <TextView text="Notebooks" />
+          </Cell>
+          <Cell>
+            <TextView text="1,249.00 EUR" />
+          </Cell>
+          <Cell>
+            <TextView text="In Stock" />
+          </Cell>
+          <Cell>
+            <Button text="Add to Cart" />
+          </Cell>
+        </Row>
+        <Row>
+          <Cell>
+            <TextView text="HT-1002" />
+          </Cell>
+          <Cell>
+            <TextView text="Notebook Basic 18" />
+          </Cell>
+          <Cell>
+            <TextView text="Notebooks" />
+          </Cell>
+          <Cell>
+            <TextView text="1,570.00 EUR" />
+          </Cell>
+          <Cell>
+            <TextView text="In Stock" />
+          </Cell>
+          <Cell>
+            <Button text="Add to Cart" />
+          </Cell>
+        </Row>
+      </Rows>
+    </Table>
+    
+    <!-- Pagination -->
+    <ButtonArea id="paginationArea">
+      <Button id="prevButton" text="Previous" />
+      <Button id="nextButton" text="Next" />
+    </ButtonArea>
+  </View>
+  
+  <Controller name="ProductCatalogView_497fController">
+    <Method name="onInitialization">
+      <![CDATA[
+        // Initialize product catalog
+        this.loadProducts();
+      ]]>
+    </Method>
+    <Method name="loadProducts">
+      <![CDATA[
+        // Load product data
+        console.log("Loading product catalog data...");
+      ]]>
+    </Method>
+    <Method name="onSearch">
+      <![CDATA[
+        // Handle search functionality
+        var searchTerm = this.byId("searchField").getValue();
+        console.log("Searching for: " + searchTerm);
+      ]]>
+    </Method>
+    <Method name="onAddToCart">
+      <![CDATA[
+        // Handle add to cart
+        var productId = oEvent.getSource().getBindingContext().getProperty("ProductID");
+        console.log("Adding product to cart: " + productId);
+      ]]>
+    </Method>
+  </Controller>
+</WebDynpro>

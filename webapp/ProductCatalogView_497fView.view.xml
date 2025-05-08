@@ -1,0 +1,103 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          xmlns:layout="sap.ui.layout"
+          xmlns:form="sap.ui.layout.form"
+          xmlns:table="sap.ui.table"
+          xmlns:core="sap.ui.core"
+          controllerName="converted.productcatalogview_497fview.controller.ProductCatalogView_497fView"
+          displayBlock="true">
+  <App id="app">
+    <pages>
+      <Page title="Product Catalog 497f" enableScrolling="true">
+        <content>
+          <Title id="pageTitle" text="Product Catalog 497f"/>
+          <Text id="generatedHashText" text="Generated with unique hash: 497f"/>
+
+          <!-- Search Area -->
+          <form:SimpleForm id="searchForm"
+                           editable="true"
+                           layout="ResponsiveGridLayout"
+                           title="Search"
+                           labelSpanXL="3"
+                           labelSpanL="3"
+                           labelSpanM="3"
+                           labelSpanS="12"
+                           adjustLabelSpan="false"
+                           emptySpanXL="4"
+                           emptySpanL="4"
+                           emptySpanM="4"
+                           emptySpanS="0"
+                           columnsXL="1"
+                           columnsL="1"
+                           columnsM="1"
+                           singleContainerFullSize="false">
+            <form:content>
+              <Label text="Search:"/>
+              <Input id="searchField" placeholder="Enter search term" width="200px"/>
+              <Button id="searchButton" text="Search" press="onSearch"/>
+            </form:content>
+          </form:SimpleForm>
+
+          <!-- Products Table -->
+          <Table id="productsTable"
+                 items="{products>/products}"
+                 growing="true"
+                 growingThreshold="10"
+                 width="auto">
+            <headerToolbar>
+              <Toolbar>
+                <Title text="Products" level="H2"/>
+              </Toolbar>
+            </headerToolbar>
+            <columns>
+              <Column id="productIdColumn" width="8rem">
+                <Text text="Product ID"/>
+                <template>
+                  <Text text="{products>ProductID}"/>
+                </template>
+              </Column>
+              <Column id="productNameColumn" width="12rem">
+                <Text text="Product Name"/>
+                <template>
+                  <Text text="{products>ProductName}"/>
+                </template>
+              </Column>
+              <Column id="categoryColumn" width="8rem">
+                <Text text="Category"/>
+                <template>
+                  <Text text="{products>Category}"/>
+                </template>
+              </Column>
+              <Column id="priceColumn" width="8rem" hAlign="End">
+                <Text text="Price"/>
+                <template>
+                  <ObjectNumber number="{products>Price}" unit="EUR"/>
+                </template>
+              </Column>
+              <Column id="availabilityColumn" width="8rem" hAlign="Center">
+                <Text text="Availability"/>
+                <template>
+                  <ObjectStatus text="{products>Availability}"
+                                 state="{= ${products>Availability} === 'In Stock' ? 'Success' : 'Error'}"/>
+                </template>
+              </Column>
+              <Column id="actionsColumn" width="8rem" hAlign="Center">
+                <Text text="Actions"/>
+                <template>
+                  <Button text="Add to Cart" press="onAddToCart" type="Emphasized"/>
+                </template>
+              </Column>
+            </columns>
+          </Table>
+
+          <!-- Pagination -->
+          <layout:HorizontalLayout id="paginationArea"
+                                   allowWrapping="true">
+            <Button id="prevButton" text="Previous" press="onPreviousPage" type="Default" icon="sap-icon://navigation-left-arrow"/>
+            <Button id="nextButton" text="Next" press="onNextPage" type="Default" icon="sap-icon://navigation-right-arrow"/>
+          </layout:HorizontalLayout>
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

@@ -1,0 +1,93 @@
+on
+[
+  {
+    "CustomerID": "CUST-10035",
+    "FullName": "John Smith",
+    "Email": "john.123@example.com",
+    "Phone": "555-123-4567",
+    "Address": "123 Main St, Anytown, CA",
+    "CreationDate": "2023-01-15",
+    "Status": "Active"
+  },
+  {
+    "CustomerID": "CUST-10036",
+    "FullName": "Alice Johnson",
+    "Email": "alice.456@example.com",
+    "Phone": "555-987-6543",
+    "Address": "456 Oak Ave, Anytown, CA",
+    "CreationDate": "2023-02-20",
+    "Status": "Inactive"
+  },
+  {
+    "CustomerID": "CUST-10037",
+    "FullName": "Bob Williams",
+    "Email": "bob.789@example.com",
+    "Phone": "555-111-2222",
+    "Address": "789 Pine Ln, Anytown, CA",
+    "CreationDate": "2023-03-25",
+    "Status": "Active"
+  },
+  {
+    "CustomerID": "CUST-10038",
+    "FullName": "Emily Brown",
+    "Email": "emily.abc@example.com",
+    "Phone": "555-333-4444",
+    "Address": "101 Elm Rd, Anytown, CA",
+    "CreationDate": "2023-04-30",
+    "Status": "Active"
+  },
+  {
+    "CustomerID": "CUST-10039",
+    "FullName": "David Garcia",
+    "Email": "david.def@example.com",
+    "Phone": "555-555-6666",
+    "Address": "222 Maple Dr, Anytown, CA",
+    "CreationDate": "2023-05-05",
+    "Status": "Inactive"
+  },
+  {
+    "CustomerID": "CUST-10040",
+    "FullName": "Linda Rodriguez",
+    "Email": "linda.ghi@example.com",
+    "Phone": "555-777-8888",
+    "Address": "333 Birch Ct, Anytown, CA",
+    "CreationDate": "2023-06-10",
+    "Status": "Active"
+  },
+  {
+    "CustomerID": "CUST-10041",
+    "FullName": "Michael Wilson",
+    "Email": "michael.jkl@example.com",
+    "Phone": "555-999-0000",
+    "Address": "444 Willow Way, Anytown, CA",
+    "CreationDate": "2023-07-15",
+    "Status": "Active"
+  },
+  {
+    "CustomerID": "CUST-10042",
+    "FullName": "Barbara Martinez",
+    "Email": "barbara.mno@example.com",
+    "Phone": "555-222-3333",
+    "Address": "555 Cedar Pl, Anytown, CA",
+    "CreationDate": "2023-08-20",
+    "Status": "Inactive"
+  },
+  {
+    "CustomerID": "CUST-10043",
+    "FullName": "James Anderson",
+    "Email": "james.pqr@example.com",
+    "Phone": "555-444-5555",
+    "Address": "666 Oak St, Anytown, CA",
+    "CreationDate": "2023-09-25",
+    "Status": "Active"
+  },
+  {
+    "CustomerID": "CUST-10044",
+    "FullName": "Susan Thomas",
+    "Email": "susan.stu@example.com",
+    "Phone": "555-666-7777",
+    "Address": "777 Pine Ave, Anytown, CA",
+    "CreationDate": "2023-10-30",
+    "Status": "Active"
+  }
+]

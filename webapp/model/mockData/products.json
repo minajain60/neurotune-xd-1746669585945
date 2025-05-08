@@ -1,0 +1,122 @@
+on
+{
+  "products": [
+    {
+      "ProductID": "HT-1000",
+      "ProductName": "Notebook Basic 15",
+      "Category": "Notebooks",
+      "Price": "956.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-1001",
+      "ProductName": "Notebook Basic 17",
+      "Category": "Notebooks",
+      "Price": "1249.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-1002",
+      "ProductName": "Notebook Basic 18",
+      "Category": "Notebooks",
+      "Price": "1570.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-1003",
+      "ProductName": "Notebook Basic 19",
+      "Category": "Notebooks",
+      "Price": "1800.00",
+      "CurrencyCode": "EUR",
+      "Availability": "Out of Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-1004",
+      "ProductName": "Notebook Basic 20",
+      "Category": "Notebooks",
+      "Price": "2100.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-2000",
+      "ProductName": "Monitor HD 22",
+      "Category": "Monitors",
+      "Price": "300.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-2001",
+      "ProductName": "Monitor HD 24",
+      "Category": "Monitors",
+      "Price": "450.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-2002",
+      "ProductName": "Monitor HD 27",
+      "Category": "Monitors",
+      "Price": "600.00",
+      "CurrencyCode": "EUR",
+      "Availability": "Out of Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-3000",
+      "ProductName": "Mouse Wireless",
+      "Category": "Accessories",
+      "Price": "45.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-3001",
+      "ProductName": "Keyboard Ergonomic",
+      "Category": "Accessories",
+      "Price": "90.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-3002",
+      "ProductName": "External Hard Drive 1TB",
+      "Category": "Accessories",
+      "Price": "120.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-4000",
+      "ProductName": "Printer Laser Pro",
+      "Category": "Printers",
+      "Price": "250.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ProductID": "HT-4001",
+      "ProductName": "Scanner Flatbed",
+      "Category": "Scanners",
+      "Price": "150.00",
+      "CurrencyCode": "EUR",
+      "Availability": "In Stock",
+      "ImageUrl": "https://via.placeholder.com/150"
+    }
+  ]
+}
